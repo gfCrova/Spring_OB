@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/Spring_ob-s1_Beans/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring_ob-s2_DataJPA/pom.xml" />
+        <option value="$PROJECT_DIR$/Ejercicio_1/pom.xml" />
+        <option value="$PROJECT_DIR$/Ejercicio_2/pom.xml" />
+        <option value="$PROJECT_DIR$/Ejercicio_3/pom.xml" />
+        <option value="$PROJECT_DIR$/Ejercicios/pom.xml" />
+        <option value="$PROJECT_DIR$/Exercises/Ejercicio_1/pom.xml" />
+        <option value="$PROJECT_DIR$/Exercises/Ejercicio_2/pom.xml" />
+        <option value="$PROJECT_DIR$/Exercises/Ejercicio_3/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_19" default="true" project-jdk-name="openjdk-19" project-jdk-type="JavaSDK" />
+  <component name="ProjectType">
+    <option name="id" value="jpab" />
+  </component>
+</project>
