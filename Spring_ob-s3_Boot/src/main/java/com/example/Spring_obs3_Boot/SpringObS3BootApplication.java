@@ -1,5 +1,7 @@
 package com.example.Spring_obs3_Boot;
 
+import com.example.Spring_obs3_Boot.entities.Book;
+import com.example.Spring_obs3_Boot.repositories.BookRepository;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
