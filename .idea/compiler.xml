@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Ejercicio_3" />
         <module name="Ejercicio_2" />
+        <module name="Spring_ob-s3_Boot" />
         <module name="SpringDataJPA_ob-s2" />
         <module name="Ejercicio_1" />
         <module name="SpringBeans_ob-s1" />
@@ -18,6 +19,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Ejercicio_3" options="-parameters" />
       <module name="SpringDataJPA_ob-s2" options="-parameters" />
+      <module name="Spring_ob-s3_Boot" options="-parameters" />
     </option>
   </component>
 </project>
