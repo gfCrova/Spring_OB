@@ -15,19 +15,16 @@ public class SpringObS3BootApplication {
 
 		ApplicationContext context = SpringApplication.run(SpringObS3BootApplication.class, args);
 
-		BookRepository bookRepository = (BookRepository) context.getBean(BookRepository.class);
+		BookRepository bookRepository = context.getBean(BookRepository.class);
 
-		Book book1 = new Book(null, "Libro1", "John", 120, LocalDate.of(2022, 11, 25), true);
-		Book book2 = new Book(null, "Libro2", "Diego", 120, LocalDate.of(2022, 11, 25), true);
+		Book book1 = new Book(null, "Don Quijote de la Mancha", "Miguel de Cervantes", 1345, LocalDate.of(1605, 1, 1), true);
+		Book book2 = new Book(null, "Cien años de soledad", "Gabriel García Márquez", 471, LocalDate.of(1967, 3, 5), true);
 
 		bookRepository.save(book1);
 		bookRepository.save(book2);
 
 		System.out.println(bookRepository.findAll());
 
-		bookRepository.delete(book1);
-
-		System.out.println(bookRepository.findAll());
 	}
 
 }
